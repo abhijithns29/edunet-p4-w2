@@ -1,0 +1,17 @@
+.lnk{
+    text-decoration: none;
+}
+.btnStyle{
+    background-color: red;
+    border: 2px solid red;
+}
+.btnStyle:hover{
+    background-color: rgb(75, 11, 11);
+}
+
+input:focus {
+    border: 2px solid #0088ff !important;
+    box-shadow: 0px 0px 20px rgba(0, 136, 255, 1) !important;
+    transition: 0.3s ease-in-out;
+    background-color: rgba(0, 136, 255, 0.15);
+}
